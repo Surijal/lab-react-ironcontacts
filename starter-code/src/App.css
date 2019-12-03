@@ -26,3 +26,28 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.contact-container{
+  display: flex;
+  justify-content: space-around;
+}
+
+.contact-container thead, tbody {
+  display: flex;
+  margin: 2vh 2vw;
+}
+
+.contact-container td {
+  width: 180px;
+}
+
+button {
+  padding: 2vh 2vw;
+  margin: 2vh 2vw;
+  border-radius: 1vw;
+}
+
+.contact-container img {
+  padding: 1vh 1vw;
+  border: 2px solid black;
+}

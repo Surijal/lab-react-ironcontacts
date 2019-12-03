@@ -4,7 +4,7 @@ import React from 'react';
 const Card = (props) => {
     const {contact} = props;
     return(
-        <div>
+        <div className="contact-container">
             <table>
                 <tbody>
                     <tr>

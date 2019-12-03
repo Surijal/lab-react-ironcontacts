@@ -96,6 +96,16 @@ class ContactList extends React.Component{
                     <button onClick={this.sortByName}>Sort Contats By Name</button>
 
                     <button onClick={this.sortByPop}>Sort Contact by rating</button>
+                <table className="contact-container">
+                    <thead>
+                        <tr>
+                            <td>Picture</td>
+                            <td>Name</td>
+                            <td>Rating</td>
+                            <td>Action</td>
+                        </tr>
+                    </thead>
+                </table>
 
                 {
                 this.state.contacts.map((contactsObj, index) => {
